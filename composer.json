@@ -1,5 +1,5 @@
 {
-  "name":         "dwr/lottoclient-bundle",
+  "name":         "dwr/LottoClient-bundle",
   "description":  "Symfony2 bundle which helps connect to polish lotto server (Totalizator sportowy).",
   "keywords":     ["lotto", "totalizator sportowy", "totek", "wyniki lotto"],
   "homepage":     "https://github.com/dariuszwrzesien/DwrLottoClientBundle",
