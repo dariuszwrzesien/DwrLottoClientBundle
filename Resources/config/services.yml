@@ -4,9 +4,6 @@ parameters:
     lottoWsdl: http://serwis.mobilotto.pl/mapi/index.php?soap=ssv1.wsdl
 
 services:
-#    service_name:
-#        class: AppBundle\Directory\ClassName
-#        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
     dwr_lotto_client:
         class: Dwr\LottoClientBundle\Service\LottoClient
         arguments: ["%lottoWsdl%"]
