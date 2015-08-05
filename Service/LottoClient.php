@@ -24,17 +24,11 @@ class LottoClient
     private $client;
 
     /**
-     * @param  string $wsdl
+     * @param  SoapClient $client
      */
-    public function __construct($wsdl)
+    public function __construct(SoapClient $client)
     {
-        $this->client = new SoapClient(
-            $wsdl,
-            array(
-                'trace'     => true,
-                'exception' => false
-            )
-        );
+        $this->client = $client;
     }
 
     /**

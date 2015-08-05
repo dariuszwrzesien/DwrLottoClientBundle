@@ -4,6 +4,12 @@ parameters:
     lottoWsdl: http://serwis.mobilotto.pl/mapi/index.php?soap=ssv1.wsdl
 
 services:
+    dwr_lotto_client.factory:
+        class: Dwr\LottoClientBundle\Factory\LottoClientFactory
+        arguments: ["%lottoWsdl%"]
+        public: false
+
     dwr_lotto_client:
         class: Dwr\LottoClientBundle\Service\LottoClient
-        arguments: ["%lottoWsdl%"]
+        factory: ["@dwr_lotto_client.factory", createLottoClient]
+
