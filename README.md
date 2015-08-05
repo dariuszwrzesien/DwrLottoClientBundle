@@ -1,7 +1,7 @@
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/b6a05abf-5bc5-4c90-befa-4adbc93ec11d/big.png)](https://insight.sensiolabs.com/projects/b6a05abf-5bc5-4c90-befa-4adbc93ec11d)
 ======================
-[![Build Status](https://travis-ci.org/dariuszwrzesien/DwrGlobalWeatherBundle.svg?branch=master)](https://travis-ci.org/dariuszwrzesien/DwrGlobalWeatherBundle)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dariuszwrzesien/DwrGlobalWeatherBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dariuszwrzesien/DwrGlobalWeatherBundle/?branch=master)
+[![Build Status](https://travis-ci.org/dariuszwrzesien/DwrLottoClientBundle.svg?branch=master)](https://travis-ci.org/dariuszwrzesien/DwrLottoClientBundle)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dariuszwrzesien/DwrLottoClientBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dariuszwrzesien/DwrLottoClientBundle/?branch=master)
 [![Coverage Status](https://coveralls.io/repos/dariuszwrzesien/DwrGlobalWeatherBundle/badge.svg?branch=master&service=github)](https://coveralls.io/github/dariuszwrzesien/DwrGlobalWeatherBundle?branch=master)
 
 # **DwrLottoClient**
@@ -113,11 +113,14 @@ Add this in your controller:
 
 ```
 
-Available lottery types:
+### **Available lottery types:**
 
 LottoClient::DUZY_LOTEK
-LottoClient::MINI_LOTEK
-LottoClient::MULTI_LOTEK
-LottoClient::JOKER
-LottoClient::KASKADA 
 
+LottoClient::MINI_LOTEK
+
+LottoClient::MULTI_LOTEK
+
+LottoClient::JOKER
+
+LottoClient::KASKADA 
