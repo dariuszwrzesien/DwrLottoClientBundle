@@ -2,7 +2,6 @@
 ======================
 [![Build Status](https://travis-ci.org/dariuszwrzesien/DwrLottoClientBundle.svg?branch=master)](https://travis-ci.org/dariuszwrzesien/DwrLottoClientBundle)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dariuszwrzesien/DwrLottoClientBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dariuszwrzesien/DwrLottoClientBundle/?branch=master)
-[![Coverage Status](https://coveralls.io/repos/dariuszwrzesien/DwrLottoClientBundle/badge.svg?branch=master&service=github)](https://coveralls.io/github/dariuszwrzesien/DwrLottoClientBundle?branch=master)
 
 # **DwrLottoClient**
 
