@@ -54,6 +54,10 @@ public function registerBundles()
 ### Step 3: Use bundle in your controller
 
 ``` php
+    
+    use Dwr\LottoClientBundle\Service\LottoClient; //don't forget add this line above class declaration
+   
+
     /**
      * @Route("/", name="homepage")
      */
@@ -86,6 +90,9 @@ public function registerBundles()
 Add this in your controller:
 
 ``` php
+
+    use Dwr\LottoClientBundle\Service\LottoClient; //don't forget add this line above class declaration
+
     /**
      * @Route("/", name="homepage")
      */
