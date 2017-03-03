@@ -30,7 +30,7 @@ Add DwrGlobalWeatherBundle in your composer.json:
 Download the bundle by running the command:
 
 ``` bash
-$ php composer.phar update dwr/lottoclient-bundle
+$ php composer.phar require dwr/lottoclient-bundle
 ```
 
 Composer will install the bundle into your project's `vendor/dwr/lottoclient-bundle` directory.
@@ -121,12 +121,8 @@ Add this in your controller:
 
 ### **Available lottery types:**
 
-LottoClient::DUZY_LOTEK
-
-LottoClient::MINI_LOTEK
-
-LottoClient::MULTI_LOTEK
-
-LottoClient::JOKER
-
-LottoClient::KASKADA 
+LottoClient::DUZY_LOTEK  
+LottoClient::MINI_LOTEK  
+LottoClient::MULTI_LOTEK  
+LottoClient::JOKER  
+LottoClient::KASKADA  
